@@ -1,0 +1,19 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "esbuild index.ts --bundle --allow-overwrite --outfile=index.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.23.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@fishjam-cloud/ts-client": "^0.5.1"
+  }
+}
